@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF13A16A755BFE78CD7D82E8 /* Pods_CovidCheckin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE94F1E032F63D0EBD4C39B0 /* Pods_CovidCheckin.framework */; };
 		CE554C9C27F66C3C003F8DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554C9B27F66C3C003F8DD8 /* AppDelegate.swift */; };
 		CE554C9E27F66C3C003F8DD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554C9D27F66C3C003F8DD8 /* SceneDelegate.swift */; };
 		CE554CA027F66C3C003F8DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554C9F27F66C3C003F8DD8 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2F9C8C2ED6E8C2AF2CB5A9C /* Pods-CovidCheckin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidCheckin.debug.xcconfig"; path = "Target Support Files/Pods-CovidCheckin/Pods-CovidCheckin.debug.xcconfig"; sourceTree = "<group>"; };
+		BF410DFA8732B674F61BE302 /* Pods-CovidCheckin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidCheckin.release.xcconfig"; path = "Target Support Files/Pods-CovidCheckin/Pods-CovidCheckin.release.xcconfig"; sourceTree = "<group>"; };
 		CE554C9827F66C3C003F8DD8 /* CovidCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE554C9B27F66C3C003F8DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE554C9D27F66C3C003F8DD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		CE554CA427F66C43003F8DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE554CA727F66C43003F8DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE554CA927F66C43003F8DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE94F1E032F63D0EBD4C39B0 /* Pods_CovidCheckin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidCheckin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF13A16A755BFE78CD7D82E8 /* Pods_CovidCheckin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4120DD05415FEC85DA4337C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2F9C8C2ED6E8C2AF2CB5A9C /* Pods-CovidCheckin.debug.xcconfig */,
+				BF410DFA8732B674F61BE302 /* Pods-CovidCheckin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98A2236B4DD009F095B1B6AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE94F1E032F63D0EBD4C39B0 /* Pods_CovidCheckin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE554C8F27F66C3C003F8DD8 = {
 			isa = PBXGroup;
 			children = (
 				CE554C9A27F66C3C003F8DD8 /* CovidCheckin */,
 				CE554C9927F66C3C003F8DD8 /* Products */,
+				4120DD05415FEC85DA4337C3 /* Pods */,
+				98A2236B4DD009F095B1B6AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE554CAC27F66C43003F8DD8 /* Build configuration list for PBXNativeTarget "CovidCheckin" */;
 			buildPhases = (
+				E5111CAAF5B95DE3DE419714 /* [CP] Check Pods Manifest.lock */,
 				CE554C9427F66C3C003F8DD8 /* Sources */,
 				CE554C9527F66C3C003F8DD8 /* Frameworks */,
 				CE554C9627F66C3C003F8DD8 /* Resources */,
+				145A6AC50595B23FB9D1ADF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		145A6AC50595B23FB9D1ADF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidCheckin/Pods-CovidCheckin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidCheckin/Pods-CovidCheckin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidCheckin/Pods-CovidCheckin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5111CAAF5B95DE3DE419714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CovidCheckin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE554C9427F66C3C003F8DD8 /* Sources */ = {
@@ -216,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +350,7 @@
 		};
 		CE554CAD27F66C43003F8DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F9C8C2ED6E8C2AF2CB5A9C /* Pods-CovidCheckin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +359,13 @@
 				DEVELOPMENT_TEAM = 3DMFD3YYQW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CovidCheckin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CovidCheckin;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +381,7 @@
 		};
 		CE554CAE27F66C43003F8DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF410DFA8732B674F61BE302 /* Pods-CovidCheckin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +390,13 @@
 				DEVELOPMENT_TEAM = 3DMFD3YYQW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CovidCheckin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CovidCheckin;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
