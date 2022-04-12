@@ -10,10 +10,32 @@
 		AF13A16A755BFE78CD7D82E8 /* Pods_CovidCheckin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE94F1E032F63D0EBD4C39B0 /* Pods_CovidCheckin.framework */; };
 		CE554C9C27F66C3C003F8DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554C9B27F66C3C003F8DD8 /* AppDelegate.swift */; };
 		CE554C9E27F66C3C003F8DD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554C9D27F66C3C003F8DD8 /* SceneDelegate.swift */; };
-		CE554CA027F66C3C003F8DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE554C9F27F66C3C003F8DD8 /* ViewController.swift */; };
 		CE554CA327F66C3C003F8DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE554CA127F66C3C003F8DD8 /* Main.storyboard */; };
 		CE554CA527F66C43003F8DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE554CA427F66C43003F8DD8 /* Assets.xcassets */; };
 		CE554CA827F66C43003F8DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE554CA627F66C43003F8DD8 /* LaunchScreen.storyboard */; };
+		CE6D157B27FCB2FA00CB28DA /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D157A27FCB2FA00CB28DA /* APICaller.swift */; };
+		CE6D157E27FCB40800CB28DA /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D157D27FCB40800CB28DA /* Country.swift */; };
+		CE6D158127FCB77700CB28DA /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D158027FCB77700CB28DA /* CountryData.swift */; };
+		CE6D158327FCC69300CB28DA /* DailyDeathData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D158227FCC69300CB28DA /* DailyDeathData.swift */; };
+		CE6D158527FCC7B800CB28DA /* CountryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D158427FCC7B800CB28DA /* CountryDetailVC.swift */; };
+		CE6D158827FCC84F00CB28DA /* CountryDetailTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D158727FCC84F00CB28DA /* CountryDetailTVCell.swift */; };
+		CE6D158A27FCC8D500CB28DA /* DailyRecoveredData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D158927FCC8D500CB28DA /* DailyRecoveredData.swift */; };
+		CE6D158C27FCC8FE00CB28DA /* DailyTotalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D158B27FCC8FE00CB28DA /* DailyTotalData.swift */; };
+		CE6D158E27FCC9AE00CB28DA /* BHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D158D27FCC9AE00CB28DA /* BHError.swift */; };
+		CE6D159227FCCB3E00CB28DA /* CountrySelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D159127FCCB3E00CB28DA /* CountrySelectionVC.swift */; };
+		CE6D159427FCCF5500CB28DA /* CountrySelectionTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D159327FCCF5500CB28DA /* CountrySelectionTVCell.swift */; };
+		CE6D159627FCCFC900CB28DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D159527FCCFC900CB28DA /* LoginViewController.swift */; };
+		CE6D159827FCF62E00CB28DA /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D159727FCF62E00CB28DA /* LeftMenuVC.swift */; };
+		CE6D159B27FCF71900CB28DA /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D159A27FCF71900CB28DA /* KeychainItem.swift */; };
+		CE6D159D27FCF79200CB28DA /* SlideInPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D159C27FCF79200CB28DA /* SlideInPresentationAnimator.swift */; };
+		CE6D159F27FCF7E500CB28DA /* SlideInPresentationContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D159E27FCF7E500CB28DA /* SlideInPresentationContoller.swift */; };
+		CE6D15A127FCF81D00CB28DA /* SlideInPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D15A027FCF81D00CB28DA /* SlideInPresentationManager.swift */; };
+		CE6D15A327FCFA1700CB28DA /* RightMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D15A227FCFA1700CB28DA /* RightMenuVC.swift */; };
+		CE6D15A527FCFA4600CB28DA /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D15A427FCFA4600CB28DA /* SpinnerViewController.swift */; };
+		CE6D15A727FCFC5D00CB28DA /* LeftMenuTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D15A627FCFC5D00CB28DA /* LeftMenuTVCell.swift */; };
+		CE6D15A927FCFCAC00CB28DA /* RightMenuTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D15A827FCFCAC00CB28DA /* RightMenuTVCell.swift */; };
+		CE6D15AF27FCFE4D00CB28DA /* CustomMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6D15AE27FCFE4D00CB28DA /* CustomMarkerView.xib */; };
+		CE6D15B127FCFE8200CB28DA /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D15B027FCFE8200CB28DA /* CustomMarkerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +44,34 @@
 		CE554C9827F66C3C003F8DD8 /* CovidCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE554C9B27F66C3C003F8DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE554C9D27F66C3C003F8DD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE554C9F27F66C3C003F8DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE554CA227F66C3C003F8DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE554CA427F66C43003F8DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE554CA727F66C43003F8DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE554CA927F66C43003F8DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6D157927FB90AB00CB28DA /* CovidCheckin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CovidCheckin.entitlements; sourceTree = "<group>"; };
+		CE6D157A27FCB2FA00CB28DA /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		CE6D157D27FCB40800CB28DA /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		CE6D158027FCB77700CB28DA /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
+		CE6D158227FCC69300CB28DA /* DailyDeathData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDeathData.swift; sourceTree = "<group>"; };
+		CE6D158427FCC7B800CB28DA /* CountryDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailVC.swift; sourceTree = "<group>"; };
+		CE6D158727FCC84F00CB28DA /* CountryDetailTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailTVCell.swift; sourceTree = "<group>"; };
+		CE6D158927FCC8D500CB28DA /* DailyRecoveredData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRecoveredData.swift; sourceTree = "<group>"; };
+		CE6D158B27FCC8FE00CB28DA /* DailyTotalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTotalData.swift; sourceTree = "<group>"; };
+		CE6D158D27FCC9AE00CB28DA /* BHError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BHError.swift; sourceTree = "<group>"; };
+		CE6D159127FCCB3E00CB28DA /* CountrySelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionVC.swift; sourceTree = "<group>"; };
+		CE6D159327FCCF5500CB28DA /* CountrySelectionTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionTVCell.swift; sourceTree = "<group>"; };
+		CE6D159527FCCFC900CB28DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE6D159727FCF62E00CB28DA /* LeftMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		CE6D159A27FCF71900CB28DA /* KeychainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
+		CE6D159C27FCF79200CB28DA /* SlideInPresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationAnimator.swift; sourceTree = "<group>"; };
+		CE6D159E27FCF7E500CB28DA /* SlideInPresentationContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationContoller.swift; sourceTree = "<group>"; };
+		CE6D15A027FCF81D00CB28DA /* SlideInPresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationManager.swift; sourceTree = "<group>"; };
+		CE6D15A227FCFA1700CB28DA /* RightMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightMenuVC.swift; sourceTree = "<group>"; };
+		CE6D15A427FCFA4600CB28DA /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		CE6D15A627FCFC5D00CB28DA /* LeftMenuTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuTVCell.swift; sourceTree = "<group>"; };
+		CE6D15A827FCFCAC00CB28DA /* RightMenuTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightMenuTVCell.swift; sourceTree = "<group>"; };
+		CE6D15AE27FCFE4D00CB28DA /* CustomMarkerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMarkerView.xib; sourceTree = "<group>"; };
+		CE6D15B027FCFE8200CB28DA /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
 		DE94F1E032F63D0EBD4C39B0 /* Pods_CovidCheckin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidCheckin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,15 +125,94 @@
 		CE554C9A27F66C3C003F8DD8 /* CovidCheckin */ = {
 			isa = PBXGroup;
 			children = (
-				CE554C9B27F66C3C003F8DD8 /* AppDelegate.swift */,
-				CE554C9D27F66C3C003F8DD8 /* SceneDelegate.swift */,
-				CE554C9F27F66C3C003F8DD8 /* ViewController.swift */,
-				CE554CA127F66C3C003F8DD8 /* Main.storyboard */,
-				CE554CA427F66C43003F8DD8 /* Assets.xcassets */,
-				CE554CA627F66C43003F8DD8 /* LaunchScreen.storyboard */,
+				CE6D157927FB90AB00CB28DA /* CovidCheckin.entitlements */,
+				CE6D15B227FCFE9A00CB28DA /* Graph */,
+				CE6D159927FCF68400CB28DA /* Resources */,
 				CE554CA927F66C43003F8DD8 /* Info.plist */,
+				CE6D157C27FCB30000CB28DA /* Managers */,
+				CE6D157F27FCB76000CB28DA /* Models */,
+				CE6D158627FCC7BF00CB28DA /* Screens */,
+				CE6D158F27FCC9FC00CB28DA /* Cells */,
+				CE6D159027FCCA0700CB28DA /* Utilities */,
+				CE6D159C27FCF79200CB28DA /* SlideInPresentationAnimator.swift */,
+				CE6D159E27FCF7E500CB28DA /* SlideInPresentationContoller.swift */,
+				CE6D15A027FCF81D00CB28DA /* SlideInPresentationManager.swift */,
 			);
 			path = CovidCheckin;
+			sourceTree = "<group>";
+		};
+		CE6D157C27FCB30000CB28DA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D157A27FCB2FA00CB28DA /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CE6D157F27FCB76000CB28DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D157D27FCB40800CB28DA /* Country.swift */,
+				CE6D158027FCB77700CB28DA /* CountryData.swift */,
+				CE6D158227FCC69300CB28DA /* DailyDeathData.swift */,
+				CE6D158927FCC8D500CB28DA /* DailyRecoveredData.swift */,
+				CE6D158B27FCC8FE00CB28DA /* DailyTotalData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE6D158627FCC7BF00CB28DA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D158427FCC7B800CB28DA /* CountryDetailVC.swift */,
+				CE6D159127FCCB3E00CB28DA /* CountrySelectionVC.swift */,
+				CE6D159527FCCFC900CB28DA /* LoginViewController.swift */,
+				CE6D159727FCF62E00CB28DA /* LeftMenuVC.swift */,
+				CE6D15A227FCFA1700CB28DA /* RightMenuVC.swift */,
+				CE6D15A427FCFA4600CB28DA /* SpinnerViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE6D158F27FCC9FC00CB28DA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D158727FCC84F00CB28DA /* CountryDetailTVCell.swift */,
+				CE6D159327FCCF5500CB28DA /* CountrySelectionTVCell.swift */,
+				CE6D15A627FCFC5D00CB28DA /* LeftMenuTVCell.swift */,
+				CE6D15A827FCFCAC00CB28DA /* RightMenuTVCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE6D159027FCCA0700CB28DA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D158D27FCC9AE00CB28DA /* BHError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CE6D159927FCF68400CB28DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE554CA127F66C3C003F8DD8 /* Main.storyboard */,
+				CE554CA627F66C43003F8DD8 /* LaunchScreen.storyboard */,
+				CE554C9B27F66C3C003F8DD8 /* AppDelegate.swift */,
+				CE554C9D27F66C3C003F8DD8 /* SceneDelegate.swift */,
+				CE554CA427F66C43003F8DD8 /* Assets.xcassets */,
+				CE6D159A27FCF71900CB28DA /* KeychainItem.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE6D15B227FCFE9A00CB28DA /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D15B027FCFE8200CB28DA /* CustomMarkerView.swift */,
+				CE6D15AE27FCFE4D00CB28DA /* CustomMarkerView.xib */,
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE554CA827F66C43003F8DD8 /* LaunchScreen.storyboard in Resources */,
+				CE6D15AF27FCFE4D00CB28DA /* CustomMarkerView.xib in Resources */,
 				CE554CA527F66C43003F8DD8 /* Assets.xcassets in Resources */,
 				CE554CA327F66C3C003F8DD8 /* Main.storyboard in Resources */,
 			);
@@ -206,9 +331,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE554CA027F66C3C003F8DD8 /* ViewController.swift in Sources */,
+				CE6D15A327FCFA1700CB28DA /* RightMenuVC.swift in Sources */,
+				CE6D159627FCCFC900CB28DA /* LoginViewController.swift in Sources */,
 				CE554C9C27F66C3C003F8DD8 /* AppDelegate.swift in Sources */,
+				CE6D158527FCC7B800CB28DA /* CountryDetailVC.swift in Sources */,
 				CE554C9E27F66C3C003F8DD8 /* SceneDelegate.swift in Sources */,
+				CE6D15A927FCFCAC00CB28DA /* RightMenuTVCell.swift in Sources */,
+				CE6D159D27FCF79200CB28DA /* SlideInPresentationAnimator.swift in Sources */,
+				CE6D158A27FCC8D500CB28DA /* DailyRecoveredData.swift in Sources */,
+				CE6D159427FCCF5500CB28DA /* CountrySelectionTVCell.swift in Sources */,
+				CE6D15A127FCF81D00CB28DA /* SlideInPresentationManager.swift in Sources */,
+				CE6D15A727FCFC5D00CB28DA /* LeftMenuTVCell.swift in Sources */,
+				CE6D157E27FCB40800CB28DA /* Country.swift in Sources */,
+				CE6D158127FCB77700CB28DA /* CountryData.swift in Sources */,
+				CE6D159B27FCF71900CB28DA /* KeychainItem.swift in Sources */,
+				CE6D159227FCCB3E00CB28DA /* CountrySelectionVC.swift in Sources */,
+				CE6D158C27FCC8FE00CB28DA /* DailyTotalData.swift in Sources */,
+				CE6D158827FCC84F00CB28DA /* CountryDetailTVCell.swift in Sources */,
+				CE6D15B127FCFE8200CB28DA /* CustomMarkerView.swift in Sources */,
+				CE6D159F27FCF7E500CB28DA /* SlideInPresentationContoller.swift in Sources */,
+				CE6D159827FCF62E00CB28DA /* LeftMenuVC.swift in Sources */,
+				CE6D157B27FCB2FA00CB28DA /* APICaller.swift in Sources */,
+				CE6D158E27FCC9AE00CB28DA /* BHError.swift in Sources */,
+				CE6D15A527FCFA4600CB28DA /* SpinnerViewController.swift in Sources */,
+				CE6D158327FCC69300CB28DA /* DailyDeathData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CovidCheckin/CovidCheckin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3DMFD3YYQW;
@@ -362,7 +509,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = CovidCheckin;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -385,6 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CovidCheckin/CovidCheckin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3DMFD3YYQW;
@@ -393,7 +540,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = CovidCheckin;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
