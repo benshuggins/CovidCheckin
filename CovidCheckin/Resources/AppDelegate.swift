@@ -1,9 +1,6 @@
 //
 //  AppDelegate.swift
 //  CovidCheckin
-//
-//  Created by Ben Huggins on 3/31/22.
-//
 
 import UIKit
 import AuthenticationServices

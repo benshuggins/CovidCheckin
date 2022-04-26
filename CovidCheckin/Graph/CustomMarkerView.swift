@@ -21,7 +21,7 @@ class CustomMarkerView: MarkerView {
         initUI()
     }
     
-    required init?(coder: NSCoder) {
+    required init?(coder: NSCoder) { 
         super.init(coder: coder)
         initUI()
     }
