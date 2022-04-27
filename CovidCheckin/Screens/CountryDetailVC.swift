@@ -71,7 +71,7 @@ class CountryDetailVC: UIViewController, ChartViewDelegate {
         label.adjustsFontSizeToFitWidth = true
         label.font = UIFont.boldSystemFont(ofSize: 18.0)
         label.textAlignment = .center
-        label.textColor = .white
+        label.textColor = .systemGray
         label.sizeToFit()
         label.text = "\(countryName.uppercased()) Covid19 Metrics\n 1/21/20 to Present"
         self.navigationItem.titleView = label
